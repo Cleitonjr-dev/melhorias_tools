@@ -11,7 +11,7 @@ class AvisosHome extends StatelessWidget {
           children: [
             Container(
               child: IconButton(
-                alignment: Alignment.centerLeft,
+                alignment: Alignment.topRight,
                 icon: Icon(
                   Icons.more_horiz,
                 ),
@@ -36,7 +36,7 @@ class AvisosHome extends StatelessWidget {
             Container(
               //padding: EdgeInsets.only(left: 180, top: 150),
               child: IconButton(
-                alignment: Alignment.centerLeft,
+                alignment: Alignment.topRight,
                 icon: Icon(
                   Icons.more_horiz,
                 ),
@@ -61,7 +61,7 @@ class AvisosHome extends StatelessWidget {
             Container(
               //padding: EdgeInsets.only(left: 180, top: 150),
               child: IconButton(
-                alignment: Alignment.centerLeft,
+                alignment: Alignment.topRight,
                 icon: Icon(
                   Icons.more_horiz,
                 ),

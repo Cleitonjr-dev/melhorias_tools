@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class StatusHome extends StatelessWidget {
@@ -11,11 +13,14 @@ class StatusHome extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Container(
-              child: Text(
-                'Equipes : ',
-                textAlign: TextAlign.start,
-                style:
-                    TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+              
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  '  Equipes : ',
+                  style:
+                      TextStyle(color: Colors.black, fontWeight: FontWeight.bold),    
+                ),
               ),
               width: MediaQuery.of(context).size.width * .20,
               height: MediaQuery.of(context).size.height * .07,
